@@ -5,3 +5,30 @@ body{
 footer li > a:hover{
     text-decoration: underline;
 }
+
+
+
+/* mobile screens */
+@media only screen and (min-width: 1024px) {
+    footer > .nav{
+        /* display: block; */
+        order: 3;
+        /* text-align: center;
+        padding-left: 1rem; */
+    }
+
+    footer > a{
+        order: 2;
+        /* display: block; */
+    }
+
+    footer > p{
+        order: 1;
+        /* text-align: center; */
+    }
+  }
+
+
+@media only screen and (max-width: 1024px) {
+    
+}
